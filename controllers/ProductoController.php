@@ -8,6 +8,8 @@ use app\models\ProductoSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use app\models\FormRegister;
+use app\models\Users;
 
 /**
  * ProductoController implements the CRUD actions for Producto model.
